@@ -1,0 +1,28 @@
+.dropdown {
+  position: relative;
+}
+
+.select-box {
+  width: 175px;
+  border: 1px solid rgba(200, 200, 200, 0.8);
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: rgba(160, 160, 160, 1);
+  padding: 10px 70px 10px 13px;
+  background: url("https://i.ibb.co/b7xjLrB/selectbox-arrow.png") right center no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  appearance: none; 
+}
+
+/*.select-box-icon {
+  font-size: 16px;
+  color: rgba(33, 139, 188, 0.8);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+*/
