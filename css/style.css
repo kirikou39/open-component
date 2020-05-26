@@ -1,0 +1,186 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&family=News+Cycle:wght@700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/lines.css");
+@import url("components/buttons.css");
+@import url("components/images.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 700px;
+  height: 1000px;
+  /*max-width: 900px;*/
+  margin: 50px 0;
+  padding: 0 72px 0 72px;
+}
+
+/* Header style */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Form intro style*/
+
+.form-intro {
+  position:relative;
+}
+
+
+.form-intro h2 {
+  margin-bottom: 8px;
+}
+
+.form-intro p {
+  margin-top: 0;
+  color: rgba(160, 160, 160, 1);
+}
+
+.form-intro .fa-circle {
+  position: absolute;
+  color: rgb(229, 166, 89);
+  font-weight: 400;
+  font-size: 20px;
+  top: 0px;
+  right: 0px;
+  filter: blur(0.4px);
+}
+
+/* Form style */
+
+.form-text {
+  display: block;
+  border: 2px solid rgba(235, 235, 235, 0.8);
+  border-radius: 3px;
+  padding: 20px 240px 20px 24px;
+  margin-bottom: 8px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.form-text::placeholder {
+  color: rgba(160, 160, 160, 1);
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.form-text:hover {
+  border: 2px solid rgba(120, 120, 120, 0.8);
+}
+
+/* Form agreement part */
+.form-agreement {
+  display: flex;
+  color: rgba(160, 160, 160, 1);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-agreement p {
+  font-size: 13px;
+  letter-spacing: -0.25px;
+}
+
+/* Form submission part */
+
+.submit {
+  display: flex;
+  margin: 24px 0 0 0;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(160, 160, 160, 1);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  color: rgba(233, 66, 78, 1);
+  font-weight: bold;
+
+}
+/* Other */
+.page-info {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-language {
+}
+
+.story {
+  width: 700px;
+  height: 1000px;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('https://source.unsplash.com/1024x600/?hot,air,balloon');
+  background-size: cover;
+  background-color: white;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.quote {
+  width: 400px;
+  margin: 0 0 0 172px;
+}
+
+.quote-text {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.quote-signature {
+  color: rgba(243, 229, 29, 1);
+  display: flex;
+  align-items: center;
+  margin: -16px 0 0 72px;
+  padding-bottom: 40px;
+}
+
+.quote-character {
+  font-size: 120px;
+  font-family: 'News Cycle';
+  margin: 0;
+}
+
+.quote-sentence {
+  width: 300px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: rgba(245, 245, 245, 1);
+  margin: 0 0 0 16px;
+  padding-top: 24px;
+}
+

@@ -1,0 +1,32 @@
+.social-google {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.social-facebook {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: transparent;
+  padding: 0px;
+  box-shadow: 0 0 4px transparent;
+}
+
+.story .logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  align-self: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*margin-left: -100px;*/
+  transform: translate(-50%, -50%);
+}
